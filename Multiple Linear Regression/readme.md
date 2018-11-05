@@ -16,9 +16,13 @@ If the relationship is not linear the appropriate transformation such as log,squ
 be applied to the dependent/ independent variable to fix the issue
 * Linearity can be tested using **Scatter plots**
 
-2.**Homoscedasticity and Normality** -
+![](Images/Linearity_check.png)
+
+2.**Homoschedasticity (Same Variance) and Normality** -
 The error variance (the errors between observed and predicted values i.e., the residuals of the regression) should be Constant,
 which is known as homoschedasticity and the error should be normally distributed
+
+![](Images/Homoschedasticity.PNG)
 
 * This assumption may be checked by looking at a **histogram or a Q-Q-Plot**.
   Normality can also be checked with a **goodness of fit test** (e.g., the Kolmogorov-Smirnov test), though this test must be conducted on the residuals themselves
@@ -35,6 +39,8 @@ which is known as homoschedasticity and the error should be normally distributed
 * solution is to simply drop one of the encoded categorical variable.
 * one may think that on dropping one of the variable the model behaves  biased  but it won't
  in the absence of the dropped categorical variable the constant behaves as catogorical variable
+ 
+ ![](Images/dummyVariableTrap.jpg)
 #### Hypothesis:
 * **Hypothesis**         - something strong assumption  regarding the distribution of the observations
 * **Hypothesis testing** - Validating  hypothesis (our strong assumption) is called as hypothesis testing\
